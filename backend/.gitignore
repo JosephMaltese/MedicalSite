@@ -1,0 +1,29 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# Docker-related
+*.pid
+*.log
+*.db
+docker-compose.override.yml
+pgdata/
+volumes/
+
+
+# Node-related
+node_modules/
+npm-debug.log*
+
+# System test output
+coverage/
+htmlcov/
+*.cover
+*.py,cover
+
+# macOS system files
+.DS_Store
