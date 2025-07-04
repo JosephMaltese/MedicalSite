@@ -4,9 +4,10 @@
 
 ```bash
 docker compose up --build
-
+```
 2. **Start the Frontend**:
 
 ```bash
 npm install
 npm run dev
+```
