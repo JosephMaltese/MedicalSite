@@ -9,7 +9,7 @@ onMounted(() => {
 
 <template>
   <div>
-    <p>hi</p>
+    <p class="bg-green-400">hi</p>
     <a href="https://vite.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
