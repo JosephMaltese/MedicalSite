@@ -11,3 +11,18 @@ docker compose up --build
 npm install
 npm run dev
 ```
+
+### Or using nix:
+
+#### With direnv:
+```
+direnv allow
+devenv up
+```
+
+#### Without direnv
+
+```
+nix develop --no-pure-eval
+devenv up
+```
