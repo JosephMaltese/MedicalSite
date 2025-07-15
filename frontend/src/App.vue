@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import NavBar from './components/NavBar.vue';
+import LoginBox from './components/LoginBox.vue';
 import { onMounted } from 'vue';
 
 onMounted(() => {
@@ -8,16 +9,8 @@ onMounted(() => {
 </script>
 
 <template>
-  <div>
-    <p class="bg-green-400">hi</p>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+  <NavBar></NavBar>
+  <LoginBox></LoginBox>
 </template>
 
 <style scoped>
