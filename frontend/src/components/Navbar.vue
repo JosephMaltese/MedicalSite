@@ -5,7 +5,7 @@
 <template>
   <div class="navbar bg-primary shadow-sm">
     <div class="navbar-start">
-      <router-link to="/" class="btn btn-ghost hover:text-primary text-xl text-primary-content text-shadow-sm text-shadow-neutral">Medical Site</router-link>
+      <router-link to="/" class="btn btn-ghost hover:text-primary text-xl text-primary-content text-shadow-sm text-shadow-neutral" >Medical Site</router-link>
     </div>
     <div class="navbar-center">
     </div>
